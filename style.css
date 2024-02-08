@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.title {
+    margin-right: 150px;
+    margin-left: 8px;
+
+}
+
+.login-button > button {
+    padding: 7px;
+    width: 70px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(75, 45, 173);
+    color: white;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 70px;
+}
+
+.input-group-box {
+    display: block;
+    width: 300px;
+    margin-left: 15px;
+    padding: 14px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.398);
+}
+
+.label-group-box {
+    margin-left: 15px !important;
+}
+
+.gender-inputs {
+    margin-top: 40px;
+}
+
+.gender-title {
+    margin-left: 20px;
+    font-size: x-large;
+}
+
+.gender-group {
+    margin-left: 25px;
+    margin-top: 10px;
+    gap: 3px;
+}
+
+.continue-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.continue-button > button {
+    width: 360px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+    background-color: rgb(75, 45, 173);
+}
